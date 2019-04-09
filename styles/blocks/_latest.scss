@@ -1,0 +1,51 @@
+.b-latest {
+    &_styles {
+        padding: 55px 35px 50px 35px;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__contentBlock {
+        &_styles {
+            width: 208px;
+        }
+    }
+
+    &__image {
+        width: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        outline: 1px solid #888;
+        margin-bottom: 25px;
+    }
+
+    &__header {
+        &_style {
+            font-size: 14px;
+            font-weight: 400;
+            color: #444;
+            margin-bottom: 14px;
+        }
+    }
+
+    &__text {
+        &_styles {
+            margin-bottom: 14px;
+        }
+    }
+
+    &__detailsLink {
+        &_style {
+            display: block;
+            text-decoration: none;
+            color: #b8d470;
+            text-align: right;
+
+            &:hover {
+                color: #888;
+            }
+        }
+    }
+}
