@@ -1,0 +1,11 @@
+.b-line {
+    background-color: white;
+    
+    &__horizLine {
+        &_style {
+            width: 90%;
+            margin: 0 auto;
+            size: 1px;
+        }
+    }
+}

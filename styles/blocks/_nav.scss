@@ -1,0 +1,51 @@
+.b-siteNavigation {
+    &_styles {
+        background-color: #81b300;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__menu {
+        &_styles {
+
+            li {
+                float: left;
+                list-style: none;
+                margin-right: 20px;
+            }
+        }
+
+        &_links {
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+
+            &:hover {
+                color: black;
+            }
+        }
+    }
+
+    &__searchInput {
+
+        &_styles {
+            height: 30px;
+            padding: 9px;
+            box-sizing: border-box;
+            border: 1px solid #888;
+        }
+    }
+
+    &__searchButton_styles {
+        background-color: white;
+        padding-left: 9px;
+        padding-right: 9px;
+        text-align: center;
+        height: 30px;
+        border: 1px solid #888;
+        margin-left: -5px;
+    }
+}

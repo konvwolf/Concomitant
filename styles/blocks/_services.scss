@@ -1,0 +1,29 @@
+.b-services {
+    &_styles {
+        padding: 50px 33px;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__contentBlock {
+        &_styles {
+            width: 203px;
+            text-align: center;
+        }
+    }
+
+    &__contentImage {
+        margin-bottom: 20px;
+    }
+
+    &__contentHeader {
+        &_styles {
+            margin-bottom: 20px;
+            color: #b8d470;
+            font-size: 18px;
+        }
+    }
+}
